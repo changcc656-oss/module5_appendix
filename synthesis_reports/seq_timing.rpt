@@ -1,0 +1,668 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : seq_multiplier
+Version: S-2021.06-SP2
+Date   : Sat Jul 11 23:11:58 2026
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: product_reg[62]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U308/Y (AO222X1_RVT)                                    0.09       2.80 r
+  U309/Y (AO222X1_RVT)                                    0.09       2.90 r
+  U310/Y (AO222X1_RVT)                                    0.09       2.98 r
+  U312/Y (OR2X1_RVT)                                      0.05       3.04 r
+  U469/Y (NAND3X0_RVT)                                    0.05       3.08 f
+  U470/SO (HADDX1_RVT)                                    0.09       3.17 r
+  U471/Y (AO22X1_RVT)                                     0.06       3.23 r
+  product_reg[62]/D (DFFARX1_RVT)                         0.01       3.24 r
+  data arrival time                                                  3.24
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  product_reg[62]/CLK (DFFARX1_RVT)                       0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -3.24
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.71
+
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: P_reg[62] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U308/Y (AO222X1_RVT)                                    0.09       2.80 r
+  U309/Y (AO222X1_RVT)                                    0.09       2.90 r
+  U310/Y (AO222X1_RVT)                                    0.09       2.98 r
+  U312/Y (OR2X1_RVT)                                      0.05       3.04 r
+  U469/Y (NAND3X0_RVT)                                    0.05       3.08 f
+  U470/SO (HADDX1_RVT)                                    0.09       3.17 r
+  U571/Y (AO22X1_RVT)                                     0.06       3.23 r
+  P_reg[62]/D (DFFARX1_RVT)                               0.01       3.24 r
+  data arrival time                                                  3.24
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  P_reg[62]/CLK (DFFARX1_RVT)                             0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -3.24
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.71
+
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: product_reg[63]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U308/Y (AO222X1_RVT)                                    0.09       2.80 r
+  U309/Y (AO222X1_RVT)                                    0.09       2.90 r
+  U310/Y (AO222X1_RVT)                                    0.09       2.98 r
+  U312/Y (OR2X1_RVT)                                      0.05       3.04 r
+  U242/Y (AND2X1_RVT)                                     0.04       3.08 r
+  U241/Y (AND2X1_RVT)                                     0.04       3.12 r
+  U314/Y (AO22X1_RVT)                                     0.06       3.18 r
+  product_reg[63]/D (DFFARX1_RVT)                         0.01       3.19 r
+  data arrival time                                                  3.19
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  product_reg[63]/CLK (DFFARX1_RVT)                       0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -3.19
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.76
+
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: P_reg[63] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U308/Y (AO222X1_RVT)                                    0.09       2.80 r
+  U309/Y (AO222X1_RVT)                                    0.09       2.90 r
+  U310/Y (AO222X1_RVT)                                    0.09       2.98 r
+  U312/Y (OR2X1_RVT)                                      0.05       3.04 r
+  U242/Y (AND2X1_RVT)                                     0.04       3.08 r
+  U241/Y (AND2X1_RVT)                                     0.04       3.12 r
+  U570/Y (AO22X1_RVT)                                     0.06       3.18 r
+  P_reg[63]/D (DFFARX1_RVT)                               0.01       3.19 r
+  data arrival time                                                  3.19
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  P_reg[63]/CLK (DFFARX1_RVT)                             0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -3.19
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.76
+
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: product_reg[61]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U308/Y (AO222X1_RVT)                                    0.09       2.80 r
+  U309/Y (AO222X1_RVT)                                    0.09       2.90 r
+  U465/Y (INVX0_RVT)                                      0.03       2.93 f
+  U466/Y (OA221X1_RVT)                                    0.06       2.99 f
+  U467/SO (HADDX1_RVT)                                    0.08       3.07 r
+  U468/Y (AO22X1_RVT)                                     0.06       3.13 r
+  product_reg[61]/D (DFFARX1_RVT)                         0.01       3.14 r
+  data arrival time                                                  3.14
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  product_reg[61]/CLK (DFFARX1_RVT)                       0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -3.14
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.81
+
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: P_reg[61] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U308/Y (AO222X1_RVT)                                    0.09       2.80 r
+  U309/Y (AO222X1_RVT)                                    0.09       2.90 r
+  U465/Y (INVX0_RVT)                                      0.03       2.93 f
+  U466/Y (OA221X1_RVT)                                    0.06       2.99 f
+  U467/SO (HADDX1_RVT)                                    0.08       3.07 r
+  U507/Y (AO22X1_RVT)                                     0.06       3.13 r
+  P_reg[61]/D (DFFARX1_RVT)                               0.01       3.14 r
+  data arrival time                                                  3.14
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  P_reg[61]/CLK (DFFARX1_RVT)                             0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -3.14
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.81
+
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: product_reg[60]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U308/Y (AO222X1_RVT)                                    0.09       2.80 r
+  U461/Y (INVX0_RVT)                                      0.03       2.83 f
+  U462/Y (OA221X1_RVT)                                    0.06       2.89 f
+  U463/SO (HADDX1_RVT)                                    0.08       2.98 r
+  U464/Y (AO22X1_RVT)                                     0.06       3.03 r
+  product_reg[60]/D (DFFARX1_RVT)                         0.01       3.05 r
+  data arrival time                                                  3.05
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  product_reg[60]/CLK (DFFARX1_RVT)                       0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -3.05
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.90
+
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: P_reg[60] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U308/Y (AO222X1_RVT)                                    0.09       2.80 r
+  U461/Y (INVX0_RVT)                                      0.03       2.83 f
+  U462/Y (OA221X1_RVT)                                    0.06       2.89 f
+  U463/SO (HADDX1_RVT)                                    0.08       2.98 r
+  U508/Y (AO22X1_RVT)                                     0.06       3.03 r
+  P_reg[60]/D (DFFARX1_RVT)                               0.01       3.05 r
+  data arrival time                                                  3.05
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  P_reg[60]/CLK (DFFARX1_RVT)                             0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -3.05
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.90
+
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: product_reg[59]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U457/Y (INVX0_RVT)                                      0.03       2.74 f
+  U458/Y (OA221X1_RVT)                                    0.06       2.80 f
+  U459/SO (HADDX1_RVT)                                    0.08       2.88 r
+  U460/Y (AO22X1_RVT)                                     0.06       2.94 r
+  product_reg[59]/D (DFFARX1_RVT)                         0.01       2.95 r
+  data arrival time                                                  2.95
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  product_reg[59]/CLK (DFFARX1_RVT)                       0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -2.95
+  --------------------------------------------------------------------------
+  slack (MET)                                                        7.00
+
+
+  Startpoint: multiplicand_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: P_reg[59] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  seq_multiplier     8000                  saed32rvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  multiplicand_reg[0]/CLK (DFFARX1_RVT)                   0.00       0.00 r
+  multiplicand_reg[0]/Q (DFFARX1_RVT)                     0.14       0.14 r
+  U282/Y (AND2X1_RVT)                                     0.05       0.19 r
+  U283/Y (AO222X1_RVT)                                    0.10       0.29 r
+  U284/Y (AO222X1_RVT)                                    0.09       0.38 r
+  U285/Y (AO222X1_RVT)                                    0.09       0.47 r
+  U286/Y (AO222X1_RVT)                                    0.09       0.57 r
+  U287/Y (AO222X1_RVT)                                    0.09       0.66 r
+  U288/Y (AO222X1_RVT)                                    0.09       0.75 r
+  U289/Y (AO222X1_RVT)                                    0.09       0.85 r
+  U226/Y (AO222X1_RVT)                                    0.09       0.94 r
+  U290/Y (AO222X1_RVT)                                    0.09       1.03 r
+  U291/Y (AO222X1_RVT)                                    0.09       1.13 r
+  U292/Y (AO222X1_RVT)                                    0.09       1.22 r
+  U293/Y (AO222X1_RVT)                                    0.09       1.31 r
+  U294/Y (AO222X1_RVT)                                    0.09       1.41 r
+  U295/Y (AO222X1_RVT)                                    0.09       1.50 r
+  U296/Y (AO222X1_RVT)                                    0.09       1.59 r
+  U297/Y (AO222X1_RVT)                                    0.09       1.69 r
+  U298/Y (AO222X1_RVT)                                    0.09       1.78 r
+  U299/Y (AO222X1_RVT)                                    0.09       1.87 r
+  U300/Y (AO222X1_RVT)                                    0.09       1.97 r
+  U301/Y (AO222X1_RVT)                                    0.09       2.06 r
+  U302/Y (AO222X1_RVT)                                    0.09       2.15 r
+  U303/Y (AO222X1_RVT)                                    0.09       2.24 r
+  U227/Y (AO222X1_RVT)                                    0.09       2.34 r
+  U304/Y (AO222X1_RVT)                                    0.09       2.43 r
+  U305/Y (AO222X1_RVT)                                    0.09       2.52 r
+  U306/Y (AO222X1_RVT)                                    0.09       2.62 r
+  U307/Y (AO222X1_RVT)                                    0.09       2.71 r
+  U457/Y (INVX0_RVT)                                      0.03       2.74 f
+  U458/Y (OA221X1_RVT)                                    0.06       2.80 f
+  U459/SO (HADDX1_RVT)                                    0.08       2.88 r
+  U509/Y (AO22X1_RVT)                                     0.06       2.94 r
+  P_reg[59]/D (DFFARX1_RVT)                               0.01       2.95 r
+  data arrival time                                                  2.95
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  P_reg[59]/CLK (DFFARX1_RVT)                             0.00      10.00 r
+  library setup time                                     -0.05       9.95
+  data required time                                                 9.95
+  --------------------------------------------------------------------------
+  data required time                                                 9.95
+  data arrival time                                                 -2.95
+  --------------------------------------------------------------------------
+  slack (MET)                                                        7.00
+
+
+1

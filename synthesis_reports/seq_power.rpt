@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : seq_multiplier
+Version: S-2021.06-SP2
+Date   : Sat Jul 11 23:11:58 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v25c (File: /pdk/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_tt1p05v25c.db)
+
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+seq_multiplier         8000              saed32rvt_tt1p05v25c
+
+
+Global Operating Voltage = 1.05 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 363.2230 uW   (99%)
+  Net Switching Power  =   5.4838 uW    (1%)
+                         ---------
+Total Dynamic Power    = 368.7068 uW  (100%)
+
+Cell Leakage Power     = 226.6993 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register         354.3569            1.7639        1.6347e+08          519.5909  (  87.27%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      8.8661            3.7199        6.3229e+07           75.8151  (  12.73%)
+--------------------------------------------------------------------------------------------------
+Total            363.2231 uW         5.4838 uW     2.2670e+08 pW       595.4061 uW
+1

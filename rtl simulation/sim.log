@@ -1,0 +1,24 @@
+Command: /home/cheeren/Desktop/module5/./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-1_Full64; Runtime version Q-2020.03-1_Full64;  Jul 11 21:50 2026
+VCD+ Writer Q-2020.03-1_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+COMB PASS: A=         5 B=         3 P_comb=                  15
+SEQ PASS : A=         5 B=         3 P_seq=                  15
+COMB PASS: A=        10 B=        20 P_comb=                 200
+SEQ PASS : A=        10 B=        20 P_seq=                 200
+COMB PASS: A=      1234 B=      5678 P_comb=             7006652
+SEQ PASS : A=      1234 B=      5678 P_seq=             7006652
+COMB PASS: A=     65535 B=         2 P_comb=              131070
+SEQ PASS : A=     65535 B=         2 P_seq=              131070
+COMB PASS: A=4294967295 B=         1 P_comb=          4294967295
+SEQ PASS : A=4294967295 B=         1 P_seq=          4294967295
+COMB PASS: A=     65536 B=     65536 P_comb=          4294967296
+SEQ PASS : A=     65536 B=     65536 P_seq=          4294967296
+All tests completed.
+$finish called from file "tb/tb_multiplier.v", line 89.
+$finish at simulation time              2125000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2125000 ps
+CPU Time:      0.250 seconds;       Data structure size:   0.0Mb
+Sat Jul 11 21:50:55 2026
